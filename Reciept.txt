@@ -1,0 +1,2 @@
+This is an example text written to the file.
+Additional receipt details can be added here.
