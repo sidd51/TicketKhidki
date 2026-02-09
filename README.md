@@ -1,29 +1,32 @@
 # 🎟️ Ticket Khidki — Movie Ticket Booking System
 
-Ticket Khidki is a movie ticket booking application developed using **Java** and **JavaFX**.  
-It provides a smooth and interactive platform for users to browse movies and book tickets, while also allowing administrators to manage movie listings and view booking history.
+A modern, intuitive movie ticket booking application built with **Java** and **JavaFX**. Ticket Khidki provides a seamless experience for browsing movies, booking tickets, and managing bookings, while offering powerful administrative tools for theater management.
 
-The project uses **Google Firebase** for secure authentication and real-time database management.
+Powered by **Google Firebase** for secure authentication and real-time database management.
 
 ---
 
-## 🚀 Features
+## ✨ Key Features
 
-# 👤 User Module
-- Secure user login using Firebase Authentication  
-- Browse available movies  
-- Book movie tickets easily  
-- View booking details  
+### 👤 User Features
+- **Secure Authentication**: Firebase-powered login and registration system
+- **Browse Movies**: Discover available movies with detailed information
+- **Easy Booking**: Intuitive seat selection and ticket booking interface
+- **Booking History**: View and manage your booking details and receipt
+- **Real-time Updates**: Instant synchronization with the database
 
-# 🛠️ Admin Module
-- Separate secure admin login  
-- Add new movies to the system  
-- Manage movie listings  
-- View ticket purchase history  
+### 🛠️ Admin Features
+- **Admin Dashboard**: Dedicated admin access with secure login
+- **Movie Management**: Add, edit, and remove movies from the system
+- **Booking Analytics**: View ticket purchase history and user bookings
+- **Inventory Control**: Manage movie schedules and seat availability
+- **User Management**: Monitor user activity and bookings
 
-# 🔐 Authentication & Security
-- Firebase Authentication for login system  
-- Separate access modes for Users and Admins  
+### 🔐 Security & Authentication
+- Firebase Authentication with email/password login
+- Role-based access control (User vs. Admin)
+- Secure session management
+- Password encryption and protection
 
 ---
 
@@ -31,28 +34,27 @@ The project uses **Google Firebase** for secure authentication and real-time dat
 
 | Technology | Purpose |
 |-----------|---------|
-| Java | Core application development |
-| JavaFX | User interface development |
-| SceneBuilder | Designing UI screens |
-| Firebase Firestore / Realtime Database | Storing movies & booking data |
-| Firebase Authentication | Secure login system |
+| **Java** | Core backend logic and application development |
+| **JavaFX** | Modern, responsive GUI development |
+| **SceneBuilder** | Visual UI design and layout management |
+| **Firebase Firestore** | Real-time NoSQL database for movies and bookings |
+| **Firebase Realtime Database** | Alternative for data synchronization |
+| **Firebase Authentication** | Secure user and admin login system |
+| **Maven** | Dependency management and project build |
 
 ---
 
-### 📂 Project Structure
-TicketKhidki/
-│── src/
-│   ├── user/         # User booking module
-│   ├── admin/        # Admin management module
-│   ├── firebase/     # Firebase configuration & services
-│   ├── ui/           # JavaFX UI screens
-│── resources/        # FXML files, images, styles
-│── README.md
+## 📦 Installation & Setup
 
+### Prerequisites
+- **Java 11** or higher installed
+- **Maven 3.6+** installed
+- **IDE**: IntelliJ IDEA, Eclipse, or VS Code with Java extensions
+- **Firebase Account**: Create a project at [Firebase Console](https://console.firebase.google.com)
 
+### Step-by-Step Setup
 
-# 📜 License
-This project is open-source and available under the MIT License.
-
-
-
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/sidd51/TicketKhidki.git
+   cd TicketKhidki
