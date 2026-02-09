@@ -9,23 +9,19 @@ The project uses **Google Firebase** for secure authentication and real-time dat
 
 ## 🚀 Features
 
-### 👤 User Module
+# 👤 User Module
 - Secure user login using Firebase Authentication  
 - Browse available movies  
 - Book movie tickets easily  
 - View booking details  
 
----
-
-### 🛠️ Admin Module
+# 🛠️ Admin Module
 - Separate secure admin login  
 - Add new movies to the system  
 - Manage movie listings  
 - View ticket purchase history  
 
----
-
-### 🔐 Authentication & Security
+# 🔐 Authentication & Security
 - Firebase Authentication for login system  
 - Separate access modes for Users and Admins  
 
@@ -43,7 +39,7 @@ The project uses **Google Firebase** for secure authentication and real-time dat
 
 ---
 
-## 📂 Project Structure
+### 📂 Project Structure
 TicketKhidki/
 │── src/
 │   ├── user/         # User booking module
