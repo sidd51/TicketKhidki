@@ -52,4 +52,11 @@ Powered by **Google Firebase** for secure authentication and real-time database 
 - **IDE**: IntelliJ IDEA, Eclipse, or VS Code with Java extensions
 - **Firebase Account**: Create a project at [Firebase Console](https://console.firebase.google.com)
 
+### Step-by-Step Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/sidd51/TicketKhidki.git
+   cd TicketKhidki
+
 
