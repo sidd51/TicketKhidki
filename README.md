@@ -2,7 +2,7 @@
 
 A modern, intuitive movie ticket booking application built with **Java** and **JavaFX**. Ticket Khidki provides a seamless experience for browsing movies, booking tickets, and managing bookings, while offering powerful administrative tools for theater management.
 
-Powered by **Firebase** for secure authentication and real-time database management.
+Powered by **Google Firebase** for secure authentication and real-time database management.
 
 ---
 
@@ -36,7 +36,6 @@ Powered by **Firebase** for secure authentication and real-time database managem
 |-----------|---------|
 | **Java** | Core backend logic and application development |
 | **JavaFX** | Modern, responsive GUI development |
-| **SceneBuilder** | Visual UI design and layout management |
 | **Firebase Firestore** | Real-time NoSQL database for movies and bookings |
 | **Firebase Realtime Database** | Alternative for data synchronization |
 | **Firebase Authentication** | Secure user and admin login system |
